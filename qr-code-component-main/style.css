@@ -1,0 +1,32 @@
+/* 
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%) */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+Img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+body {
+  font-size: 15px;
+  background-color: hsl(212, 45%, 89%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
